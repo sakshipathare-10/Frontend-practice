@@ -1,3 +1,5 @@
+// Types of Datatypes:  1.Primitive datatypes
+
 // 1. Number:Used to store numeric values.
 let age = 22;
 let price = 199.99;
@@ -41,3 +43,31 @@ console.log(typeof result);
 console.log(typeof address);    
 console.log(typeof id1);        
 console.log(typeof bigNumber);  
+ 
+//2.Non primitive datatypes:
+// 1. Object
+
+let student = {
+  name: "Sakshi",
+  rollNo: 115,
+  course: "MCA"
+};
+console.log(student.course); 
+
+// 2. Array
+let subjects = ["Java", "JavaScript", "Python"];
+console.log(subjects[2]); 
+
+// 3. Function
+function calculate(num) {
+  return num * num;
+}
+console.log(calculate(5)); 
+
+// 4. Date
+let examDate = new Date("2025-12-10");
+console.log(examDate);
+
+// 5. Regular Expression
+let emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+console.log(emailPattern.test("student@gmail.com")); 
