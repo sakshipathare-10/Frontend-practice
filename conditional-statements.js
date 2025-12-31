@@ -1,4 +1,4 @@
-//There are 5 types of conditional statements
+//There are 6 types of conditional statements
 let num = 10;
 
 // if      :    single condition
@@ -35,3 +35,4 @@ switch (day) {
 // ternary  :  shortcut of if else
 let result = (num > 5) ? "Greater than 5" : "5 or less";
 console.log(result);
+//Nested if satements
