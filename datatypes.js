@@ -68,6 +68,7 @@ console.log(calculate(5));
 let examDate = new Date("2025-12-10");
 console.log(examDate);
 
+
 // 5. Regular Expression
 let emailPattern = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
-console.log(emailPattern.test("student@gmail.com")); 
+console.log(emailPattern.test("student@gmail.com")); 333
