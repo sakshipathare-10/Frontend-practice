@@ -1,7 +1,7 @@
 
 import Header from "./Header";
 import Profile from "./Profile";
-
+import Student from "./Student";
 
 function App() {
   const isLoggedIn = true;
@@ -21,6 +21,15 @@ function App() {
     </div>
   );
 }
+(
+    <div>
+      <h1>Student Details</h1>
+
+      {/* Passing props */}
+      <Student name="Sakshi" age={22} />
+      <Student name="Rahul" age={21} />
+    </div>
+  );
 
 
    (
@@ -49,6 +58,7 @@ function App() {
       </form>
     </div>
   );
+
 
 
 export default App;
