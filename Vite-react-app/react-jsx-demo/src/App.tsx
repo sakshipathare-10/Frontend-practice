@@ -1,11 +1,17 @@
 function App() {
-  const element = <h1>Hello, World!</h1>
+  const fruits = ["Apple", "Mango", "Banana"];
 
   return (
     <div>
-      {element}
+      <h2>Fruit List</h2>
+
+      <ul>
+        {fruits.map((fruit, index) => (
+          <li key={index}>{fruit}</li>
+        ))}
+      </ul>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
