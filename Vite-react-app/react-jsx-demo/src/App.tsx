@@ -1,5 +1,29 @@
+
+import Header from "./Header";
+import Profile from "./Profile";
+
+
 function App() {
+  const isLoggedIn = true;
+
   return (
+    <div>
+      <Header />
+
+      {/* Conditional rendering */}
+      {isLoggedIn ? (
+        <Profile name="Sakshi" role="Student" />
+      ) : (
+        <p>Please login</p>
+      )}
+
+  
+    </div>
+  );
+}
+
+
+   (
     <div style={{ padding: "20px" }}>
       <h2>Login Form</h2>
 
@@ -25,6 +49,6 @@ function App() {
       </form>
     </div>
   );
-}
+
 
 export default App;
